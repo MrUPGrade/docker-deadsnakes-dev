@@ -17,7 +17,7 @@ test_image() {
     docker run -it --rm mrupgrade/deadsnakes-dev:$1 python --version
 }
 
-for VER in 2.6 2.7 3.3 3.4 3.5
+for VER in 2.6 2.7 3.3 3.4 3.5 3.6
 do
     if [ "$1" = 'gen' ]
     then
